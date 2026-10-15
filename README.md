@@ -125,7 +125,7 @@ This engine delivers true **Continuous Collision Detection (CCD)** via frame-to-
 Between any two discrete frames $t-1$ and $t$:
 
 $$\vec{v} = \vec{P}_t - \vec{P}_{t-1}$$
-$$\text{HitTest} = \operatorname{Raycast}(\vec{P}_{t-1}, \vec{v}, \text{Params})$$
+$$\text{HitTest} = \text{Raycast}(\vec{P}_{t-1}, \vec{v}, \text{Params})$$
 
 Because each attachment draws an unbroken ray between its historical position and its current transform, the swept surface forms a continuous geometric blade arc that cannot be tunneled through.
 
