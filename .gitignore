@@ -1,0 +1,52 @@
+# Roblox Place & Model Binary/XML files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo Build Artifacts
+build/
+dist/
+out/
+*.zip
+
+# Wally & Package Management
+Packages/_Index/
+# Uncomment if you manage packages via Wally without committing them
+# Packages/
+# ServerPackages/
+# DevPackages/
+.wally/
+wally.lock
+
+# Luau & Tooling caches
+.luaurc.lock
+.aftman/
+.foreman/
+.darklua/
+
+# IDE & Editor Configuration
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Logs & Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
